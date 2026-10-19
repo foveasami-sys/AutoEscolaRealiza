@@ -1,0 +1,1013 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Auto Escola Realiza | Formação de Condutores em Terezópolis de Goiás</title>
+  <meta name="description" content="Auto Escola Realiza: formação de condutores com acolhimento, paciência e profissionalismo em Terezópolis de Goiás. Aulas teóricas e práticas, primeira habilitação e adição de categoria. Fale com nossa equipe.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://www.autoescolarealiza.com.br/">
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="Auto Escola Realiza | Sua jornada para a habilitação começa aqui">
+  <meta property="og:description" content="Formação de condutores humanizada em Terezópolis de Goiás. Aulas com paciência, acolhimento e profissionalismo.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.autoescolarealiza.com.br/">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?w=1200&h=630&fit=crop&auto=format">
+  <meta property="og:locale" content="pt_BR">
+  
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚗</text></svg>">
+  
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <style>
+    :root {
+      --primary: #0d6efd;
+      --primary-dark: #0a58ca;
+      --accent: #ffc107;
+      --ink: #1a1a2e;
+      --muted: #6b7280;
+      --soft: #f8f9fc;
+      --border: #e9ecef;
+      --radius: 20px;
+    }
+    
+    * { -webkit-font-smoothing: antialiased; }
+    
+    html { scroll-behavior: smooth; }
+    
+    body {
+      font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+      color: var(--ink);
+      background: #fff;
+      line-height: 1.7;
+    }
+    
+    h1, h2, h3, h4 { font-weight: 700; letter-spacing: -0.02em; line-height: 1.25; }
+    
+    .section { padding: 5rem 0; }
+    @media (max-width: 768px) { .section { padding: 3rem 0; } }
+    
+    .section-title { font-size: clamp(1.75rem, 4vw, 2.5rem); margin-bottom: 1rem; }
+    .section-lead { color: var(--muted); font-size: 1.1rem; max-width: 680px; }
+    
+    /* Navbar */
+    .navbar {
+      background: rgba(255,255,255,0.92);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+      padding: 0.85rem 0;
+      transition: all .3s ease;
+    }
+    .navbar-brand { display: flex; align-items: center; gap: .65rem; font-weight: 800; color: var(--ink); }
+    .navbar-brand img { height: 44px; width: 44px; object-fit: contain; }
+    .navbar-brand span small { display: block; font-size: .7rem; font-weight: 500; color: var(--muted); letter-spacing: .02em; }
+    .nav-link { font-weight: 500; color: var(--ink) !important; padding: .5rem .9rem !important; border-radius: 10px; transition: all .2s; }
+    .nav-link:hover { background: var(--soft); color: var(--primary) !important; }
+    
+    /* Botões */
+    .btn-realiza {
+      background: var(--primary);
+      color: #fff;
+      font-weight: 600;
+      padding: .75rem 1.5rem;
+      border-radius: 12px;
+      border: none;
+      transition: all .25s ease;
+    }
+    .btn-realiza:hover { background: var(--primary-dark); color: #fff; transform: translateY(-2px); box-shadow: 0 8px 24px rgba(13,110,253,.3); }
+    .btn-outline-realiza {
+      background: transparent;
+      color: var(--ink);
+      font-weight: 600;
+      padding: .75rem 1.5rem;
+      border-radius: 12px;
+      border: 1.5px solid var(--border);
+      transition: all .25s ease;
+    }
+    .btn-outline-realiza:hover { background: var(--soft); border-color: var(--primary); color: var(--primary); }
+    
+    /* Hero */
+    .hero {
+      padding: 6rem 0 4rem;
+      background: linear-gradient(180deg, #f8fbff 0%, #fff 100%);
+      position: relative;
+      overflow: hidden;
+    }
+    .hero::before {
+      content: '';
+      position: absolute;
+      top: -200px; right: -200px;
+      width: 500px; height: 500px;
+      background: radial-gradient(circle, rgba(13,110,253,.08) 0%, transparent 70%);
+      border-radius: 50%;
+      pointer-events: none;
+    }
+    .hero h1 { font-size: clamp(2rem, 5.5vw, 3.5rem); font-weight: 800; margin-bottom: 1.25rem; }
+    .hero h1 .highlight { color: var(--primary); }
+    .hero p.lead { font-size: 1.15rem; color: var(--muted); max-width: 540px; margin-bottom: 2rem; }
+    .hero-img {
+      border-radius: 24px;
+      box-shadow: 0 24px 60px rgba(0,0,0,.12);
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      aspect-ratio: 4/3;
+    }
+    .hero-badges { display: flex; flex-wrap: wrap; gap: .75rem; margin-top: 2rem; }
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: .5rem;
+      background: #fff; border: 1px solid var(--border);
+      padding: .5rem 1rem; border-radius: 50px;
+      font-size: .875rem; font-weight: 500;
+      box-shadow: 0 2px 8px rgba(0,0,0,.04);
+    }
+    .hero-badge i { color: var(--primary); }
+    
+    /* Animações de entrada */
+    .reveal { opacity: 0; transform: translateY(24px); transition: opacity .7s ease, transform .7s ease; }
+    .reveal.visible { opacity: 1; transform: translateY(0); }
+    @media (prefers-reduced-motion: reduce) {
+      .reveal { opacity: 1; transform: none; transition: none; }
+      html { scroll-behavior: auto; }
+    }
+    
+    /* Cards de serviço */
+    .card-service {
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 2rem;
+      height: 100%;
+      transition: all .3s ease;
+    }
+    .card-service:hover { box-shadow: 0 12px 40px rgba(0,0,0,.08); transform: translateY(-4px); border-color: transparent; }
+    .card-service .icon-box {
+      width: 56px; height: 56px;
+      border-radius: 16px;
+      background: linear-gradient(135deg, #e7f1ff, #d4e4ff);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1.5rem; color: var(--primary);
+      margin-bottom: 1.25rem;
+    }
+    .card-service h3 { font-size: 1.15rem; margin-bottom: .5rem; }
+    .card-service p { color: var(--muted); font-size: .95rem; margin: 0; }
+    
+    /* Sobre */
+    .about-img {
+      border-radius: 24px;
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      aspect-ratio: 4/5;
+      box-shadow: 0 20px 50px rgba(0,0,0,.1);
+    }
+    .about-list { list-style: none; padding: 0; margin: 1.5rem 0 0; }
+    .about-list li { display: flex; gap: .75rem; margin-bottom: 1rem; align-items: flex-start; }
+    .about-list li i { color: var(--primary); font-size: 1.15rem; margin-top: .15rem; flex-shrink: 0; }
+    
+    /* Diferenciais / números */
+    .stats-band {
+      background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+      border-radius: 28px;
+      padding: 3rem 2rem;
+      color: #fff;
+      position: relative;
+      overflow: hidden;
+    }
+    .stats-band::after {
+      content: '';
+      position: absolute;
+      bottom: -80px; left: -80px;
+      width: 280px; height: 280px;
+      background: rgba(255,255,255,.06);
+      border-radius: 50%;
+    }
+    .stat-item { text-align: center; padding: 1rem; position: relative; z-index: 1; }
+    .stat-item .num { font-size: clamp(1.75rem, 4vw, 2.5rem); font-weight: 800; line-height: 1; margin-bottom: .35rem; }
+    .stat-item .label { font-size: .9rem; opacity: .85; }
+    
+    /* Depoimentos */
+    .testimonial {
+      background: var(--soft);
+      border-radius: var(--radius);
+      padding: 2rem;
+      height: 100%;
+      border: 1px solid transparent;
+      transition: all .3s ease;
+    }
+    .testimonial:hover { border-color: var(--border); background: #fff; box-shadow: 0 12px 30px rgba(0,0,0,.06); }
+    .testimonial .stars { color: #f59e0b; margin-bottom: .75rem; font-size: .95rem; }
+    .testimonial p { font-size: .95rem; color: var(--ink); font-style: italic; line-height: 1.7; }
+    .testimonial .author { display: flex; align-items: center; gap: .75rem; margin-top: 1.25rem; }
+    .testimonial .author .avatar {
+      width: 44px; height: 44px; border-radius: 50%;
+      background: linear-gradient(135deg, var(--primary), #6ea8fe);
+      display: flex; align-items: center; justify-content: center;
+      color: #fff; font-weight: 700; font-size: 1rem;
+    }
+    .testimonial .author strong { font-size: .9rem; display: block; }
+    .testimonial .author small { color: var(--muted); font-size: .8rem; }
+    
+    /* FAQ */
+    .accordion-item {
+      border: 1px solid var(--border);
+      border-radius: 14px !important;
+      margin-bottom: .75rem;
+      overflow: hidden;
+    }
+    .accordion-button {
+      font-weight: 600;
+      font-size: 1rem;
+      padding: 1.15rem 1.25rem;
+      background: #fff;
+      color: var(--ink);
+    }
+    .accordion-button:not(.collapsed) { background: #f0f7ff; color: var(--primary); box-shadow: none; }
+    .accordion-button:focus { box-shadow: none; border-color: var(--primary); }
+    .accordion-body { color: var(--muted); font-size: .95rem; padding: 0 1.25rem 1.25rem; }
+    
+    /* CTA final */
+    .cta-final {
+      background: linear-gradient(135deg, #0b3d91 0%, var(--primary) 100%);
+      border-radius: 28px;
+      padding: 3.5rem 2rem;
+      color: #fff;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+    .cta-final::before {
+      content: '';
+      position: absolute;
+      top: -120px; right: -120px;
+      width: 300px; height: 300px;
+      background: rgba(255,255,255,.07);
+      border-radius: 50%;
+    }
+    .cta-final h2 { font-size: clamp(1.5rem, 4vw, 2.25rem); position: relative; z-index: 1; }
+    .cta-final p { opacity: .9; max-width: 520px; margin: 0 auto 2rem; position: relative; z-index: 1; }
+    .cta-final .btn-realiza { background: #fff; color: var(--primary); position: relative; z-index: 1; }
+    .cta-final .btn-realiza:hover { background: var(--accent); color: var(--ink); box-shadow: 0 8px 24px rgba(0,0,0,.2); }
+    
+    /* Formulário */
+    .form-card {
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      padding: 2.5rem;
+      box-shadow: 0 20px 50px rgba(0,0,0,.06);
+    }
+    @media (max-width: 576px) { .form-card { padding: 1.5rem; } }
+    .form-control, .form-select {
+      border-radius: 12px;
+      padding: .8rem 1rem;
+      border: 1.5px solid var(--border);
+      font-size: .95rem;
+    }
+    .form-control:focus, .form-select:focus { border-color: var(--primary); box-shadow: 0 0 0 3px rgba(13,110,253,.12); }
+    .form-label { font-weight: 600; font-size: .875rem; margin-bottom: .4rem; }
+    
+    /* Rodapé */
+    footer {
+      background: #0f1424;
+      color: #b8bfd0;
+      padding: 4rem 0 2rem;
+      font-size: .9rem;
+    }
+    footer h5 { color: #fff; font-size: 1rem; margin-bottom: 1.25rem; }
+    footer a { color: #b8bfd0; text-decoration: none; transition: color .2s; }
+    footer a:hover { color: #fff; }
+    footer ul { list-style: none; padding: 0; }
+    footer ul li { margin-bottom: .6rem; }
+    .footer-brand { display: flex; align-items: center; gap: .65rem; margin-bottom: 1rem; color: #fff; font-weight: 700; }
+    .footer-brand img { height: 44px; width: 44px; object-fit: contain; }
+    .footer-divider { border-top: 1px solid rgba(255,255,255,.1); margin: 2rem 0 1.5rem; }
+    .footer-legal { font-size: .8rem; color: #8a92a8; }
+    
+    /* WhatsApp flutuante */
+    .whatsapp-float {
+      position: fixed;
+      bottom: 24px; right: 24px;
+      width: 58px; height: 58px;
+      background: #25d366;
+      border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      color: #fff; font-size: 1.6rem;
+      box-shadow: 0 8px 24px rgba(37,211,102,.4);
+      z-index: 1030;
+      transition: all .25s ease;
+    }
+    .whatsapp-float:hover { transform: scale(1.08); color: #fff; box-shadow: 0 12px 30px rgba(37,211,102,.5); }
+    
+    /* Cookies */
+    .cookie-banner {
+      position: fixed;
+      bottom: 0; left: 0; right: 0;
+      background: #fff;
+      border-top: 1px solid var(--border);
+      box-shadow: 0 -8px 30px rgba(0,0,0,.08);
+      padding: 1.25rem;
+      z-index: 1050;
+      display: none;
+    }
+    .cookie-banner.show { display: block; animation: slideUp .4s ease; }
+    @keyframes slideUp { from { transform: translateY(100%); } to { transform: translateY(0); } }
+    .cookie-banner .container { max-width: 1100px; }
+    
+    /* Badge flutuante de segurança */
+    .trust-badge {
+      display: inline-flex; align-items: center; gap: .5rem;
+      font-size: .8rem; color: var(--muted);
+    }
+    .trust-badge i { color: #16a34a; }
+  </style>
+  
+  <!-- Estrutura GTM (consent mode) - inserir ID real -->
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    // Consent Mode v2 - padrão negado até consentimento
+    gtag('consent', 'default', {
+      'ad_storage': 'denied',
+      'ad_user_data': 'denied',
+      'ad_personalization': 'denied',
+      'analytics_storage': 'denied'
+    });
+  </script>
+  <!-- Google Tag Manager - substituir GTM-XXXXXXX pelo ID real
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-XXXXXXX');</script>
+  -->
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#inicio">
+      <img src="https://images.unsplash.com/photo-1502877338535-766e1452684a?w=100&h=100&fit=crop&auto=format" alt="Logo Auto Escola Realiza - volante de carro">
+      <span>Auto Escola Realiza<small>Formação de Condutores</small></span>
+    </a>
+    <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Abrir menu">
+      <i class="bi bi-list fs-2"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto align-items-lg-center gap-1">
+        <li class="nav-item"><a class="nav-link" href="#inicio">Início</a></li>
+        <li class="nav-item"><a class="nav-link" href="#servicos">Serviços</a></li>
+        <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+        <li class="nav-item"><a class="nav-link" href="#depoimentos">Depoimentos</a></li>
+        <li class="nav-item"><a class="nav-link" href="#faq">Dúvidas</a></li>
+        <li class="nav-item ms-lg-2"><a class="btn btn-realiza" href="#contato">Fale com a equipe</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="inicio">
+  <div class="container">
+    <div class="row align-items-center g-5">
+      <div class="col-lg-6 reveal">
+        <span class="hero-badge mb-3"><i class="bi bi-geo-alt-fill"></i> Terezópolis de Goiás – GO</span>
+        <h1>Sua habilitação com <span class="highlight">acolhimento</span> e confiança.</h1>
+        <p class="lead">Na Auto Escola Realiza, acreditamos que aprender a dirigir vai além de passar no exame. É sobre ganhar autonomia com segurança, no seu tempo, com quem entende e respeita o seu processo.</p>
+        <div class="d-flex flex-wrap gap-3">
+          <a href="#contato" class="btn btn-realiza btn-lg">Quero falar com a equipe</a>
+          <a href="#servicos" class="btn btn-outline-realiza btn-lg">Conhecer serviços</a>
+        </div>
+        <div class="hero-badges">
+          <span class="hero-badge"><i class="bi bi-shield-check"></i> Empresa ativa desde 2021</span>
+          <span class="hero-badge"><i class="bi bi-people"></i> Atendimento humanizado</span>
+          <span class="hero-badge"><i class="bi bi-clock-history"></i> Horários flexíveis</span>
+        </div>
+      </div>
+      <div class="col-lg-6 reveal">
+        <img class="hero-img" 
+             src="https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?w=800&h=600&fit=crop&auto=format" 
+             alt="Instrutora sorrindo ao lado de aluna durante aula prática de direção" 
+             width="800" height="600" fetchpriority="high">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVIÇOS -->
+<section class="section" id="servicos">
+  <div class="container">
+    <div class="text-center mb-5 reveal">
+      <span class="badge bg-primary bg-opacity-10 text-primary px-3 py-2 mb-2">Nossos serviços</span>
+      <h2 class="section-title">O que fazemos por você</h2>
+      <p class="section-lead mx-auto">Do primeiro contato à conquista da CNH, acompanhamos cada etapa com clareza, paciência e profissionalismo.</p>
+    </div>
+    <div class="row g-4">
+      <div class="col-md-6 col-lg-4 reveal">
+        <div class="card-service">
+          <div class="icon-box"><i class="bi bi-car-front-fill"></i></div>
+          <h3>Primeira Habilitação</h3>
+          <p>Todo o processo para tirar sua primeira CNH: aulas teóricas, práticas e apoio na preparação para os exames oficiais.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 reveal">
+        <div class="card-service">
+          <div class="icon-box"><i class="bi bi-arrow-repeat"></i></div>
+          <h3>Adição de Categoria</h3>
+          <p>Já tem CNH e quer dirigir outros veículos? Orientamos e preparamos você para a adição da categoria desejada.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 reveal">
+        <div class="card-service">
+          <div class="icon-box"><i class="bi bi-journal-bookmark-fill"></i></div>
+          <h3>Aulas Teóricas</h3>
+          <p>Conteúdo completo de legislação, direção defensiva e primeiros socorros, com linguagem acessível e material de apoio.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 reveal">
+        <div class="card-service">
+          <div class="icon-box"><i class="bi bi-steering-wheel"></i></div>
+          <h3>Aulas Práticas</h3>
+          <p>Treinos de direção com instrutores atenciosos, veículos revisados e acompanhamento respeitando seu ritmo de aprendizado.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 reveal">
+        <div class="card-service">
+          <div class="icon-box"><i class="bi bi-clipboard-check"></i></div>
+          <h3>Preparação para Exames</h3>
+          <p>Simulações e orientações para você chegar ao exame teórico e prático mais seguro e confiante.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 reveal">
+        <div class="card-service">
+          <div class="icon-box"><i class="bi bi-chat-heart"></i></div>
+          <h3>Atendimento ao Aluno</h3>
+          <p>Tire dúvidas, acompanhe seu processo e receba suporte pelo WhatsApp durante toda a sua jornada conosco.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SOBRE -->
+<section class="section" id="sobre" style="background: var(--soft);">
+  <div class="container">
+    <div class="row align-items-center g-5">
+      <div class="col-lg-5 reveal">
+        <img class="about-img" 
+             src="https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?w=600&h=750&fit=crop&auto=format" 
+             alt="Instrutor orientando aluna com paciência dentro do carro da auto escola" 
+             loading="lazy" width="600" height="750">
+      </div>
+      <div class="col-lg-7 reveal">
+        <span class="badge bg-primary bg-opacity-10 text-primary px-3 py-2 mb-2">Nossa história</span>
+        <h2 class="section-title">Mais que uma auto escola, um lugar de confiança</h2>
+        <p class="text-muted mb-3">A Auto Escola Realiza nasceu em 2021 com um propósito simples: tornar o processo de habilitação mais leve e humano. Sabemos que aprender a dirigir pode gerar ansiedade — por isso, nosso time acolhe cada aluno de forma individual, respeitando seu tempo e suas dificuldades.</p>
+        <p class="text-muted">Atuamos em Terezópolis de Goiás e região, oferecendo estrutura organizada, instrutores qualificados e comunicação transparente em todas as etapas. Aqui, você não é só mais um número: é parte da nossa história.</p>
+        <ul class="about-list">
+          <li><i class="bi bi-check-circle-fill"></i><span><strong>Atendimento individualizado</strong> — cada aluno tem seu ritmo respeitado.</span></li>
+          <li><i class="bi bi-check-circle-fill"></i><span><strong>Transparência total</strong> — você sabe exatamente o que acontece em cada etapa.</span></li>
+          <li><i class="bi bi-check-circle-fill"></i><span><strong>Equipe acolhedora</strong> — do primeiro contato à aprovação, estamos com você.</span></li>
+          <li><i class="bi bi-check-circle-fill"></i><span><strong>Localização acessível</strong> — na Vila Braz, em Terezópolis de Goiás.</span></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- NÚMEROS / DIFERENCIAIS -->
+<section class="section pt-0">
+  <div class="container">
+    <div class="stats-band reveal">
+      <div class="row g-4">
+        <div class="col-6 col-md-3">
+          <div class="stat-item">
+            <div class="num">2021</div>
+            <div class="label">Ano de fundação</div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="stat-item">
+            <div class="num">100%</div>
+            <div class="label">Atendimento humanizado</div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="stat-item">
+            <div class="num">2</div>
+            <div class="label">Categorias atendidas</div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="stat-item">
+            <div class="num">GO</div>
+            <div class="label">Terezópolis de Goiás</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- DEPOIMENTOS -->
+<section class="section" id="depoimentos" style="background: var(--soft);">
+  <div class="container">
+    <div class="text-center mb-5 reveal">
+      <span class="badge bg-primary bg-opacity-10 text-primary px-3 py-2 mb-2">Quem já passou por aqui</span>
+      <h2 class="section-title">Histórias de quem realizou</h2>
+      <p class="section-lead mx-auto">Depoimentos ilustrativos do tipo de experiência que buscamos proporcionar. Cada aluno é único.</p>
+    </div>
+    <div class="row g-4">
+      <div class="col-md-6 col-lg-4 reveal">
+        <div class="testimonial">
+          <div class="stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+          <p>"Cheguei muito ansiosa para tirar minha primeira habilitação. A equipe teve paciência e me explicou tudo com calma. Hoje me sinto segura para dirigir."</p>
+          <div class="author">
+            <div class="avatar">M</div>
+            <div><strong>Maria S.</strong><small>Aluna — primeira habilitação</small></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 reveal">
+        <div class="testimonial">
+          <div class="stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+          <p>"O que mais me marcou foi o respeito ao meu tempo. Não me senti pressionado em nenhum momento. Recomendo pela seriedade e pelo cuidado."</p>
+          <div class="author">
+            <div class="avatar">J</div>
+            <div><strong>João P.</strong><small>Aluno — adição de categoria</small></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 reveal">
+        <div class="testimonial">
+          <div class="stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+          <p>"Comunicação clara do início ao fim. Sempre que tive dúvida, fui atendida pelo WhatsApp com atenção. Me senti acompanhada em todo o processo."</p>
+          <div class="author">
+            <div class="avatar">A</div>
+            <div><strong>Ana C.</strong><small>Aluna — primeira habilitação</small></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="section" id="faq">
+  <div class="container">
+    <div class="row justify-content-center mb-5 reveal">
+      <div class="col-lg-8 text-center">
+        <span class="badge bg-primary bg-opacity-10 text-primary px-3 py-2 mb-2">Dúvidas frequentes</span>
+        <h2 class="section-title">Perguntas que recebemos com frequência</h2>
+        <p class="section-lead mx-auto">Respostas diretas para você se sentir mais tranquilo antes de falar conosco.</p>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-lg-9">
+        <div class="accordion" id="faqAccordion">
+          <div class="accordion-item reveal">
+            <h3 class="accordion-header"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1" aria-expanded="true" aria-controls="faq1">Como funciona o processo para tirar a primeira habilitação?</button></h3>
+            <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">O processo inclui exames médicos e psicológicos, aulas teóricas, prova teórica no Detran, aulas práticas e exame prático. Nossa equipe orienta você em cada etapa e informa a documentação necessária no primeiro contato.</div>
+            </div>
+          </div>
+          <div class="accordion-item reveal">
+            <h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2" aria-expanded="false" aria-controls="faq2">Quanto tempo leva para concluir a formação?</button></h3>
+            <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">O prazo varia conforme a disponibilidade do aluno e os agendamentos do Detran. Como cada caso é único, explicamos o fluxo completo e os prazos estimados no atendimento — sem prometer datas que não podemos cumprir.</div>
+            </div>
+          </div>
+          <div class="accordion-item reveal">
+            <h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3" aria-expanded="false" aria-controls="faq3">Vocês atendem em Terezópolis de Goiás e região?</button></h3>
+            <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">Sim. Estamos localizados na Vila Braz, em Terezópolis de Goiás – GO. Entre em contato pelo WhatsApp para confirmar o atendimento na sua região e combinar os detalhes.</div>
+            </div>
+          </div>
+          <div class="accordion-item reveal">
+            <h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4" aria-expanded="false" aria-controls="faq4">Quais são as formas de pagamento?</button></h3>
+            <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">As condições de pagamento são informadas diretamente pela nossa equipe no atendimento, de acordo com o serviço escolhido. Não divulgamos valores fixos no site para evitar informações desatualizadas.</div>
+            </div>
+          </div>
+          <div class="accordion-item reveal">
+            <h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5" aria-expanded="false" aria-controls="faq5">Posso remarcar aulas práticas?</button></h3>
+            <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">Sim, mediante aviso prévio e disponibilidade da agenda. Nosso objetivo é conciliar as aulas com a sua rotina — converse com a equipe pelo WhatsApp para alinhar os horários.</div>
+            </div>
+          </div>
+          <div class="accordion-item reveal">
+            <h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq6" aria-expanded="false" aria-controls="faq6">Preciso ter carro próprio para fazer as aulas?</button></h3>
+            <div id="faq6" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">Não. As aulas práticas são realizadas nos veículos da auto escola, devidamente preparados e revisados para o aprendizado.</div>
+            </div>
+          </div>
+          <div class="accordion-item reveal">
+            <h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq7" aria-expanded="false" aria-controls="faq7">Como entro em contato com a Auto Escola Realiza?</button></h3>
+            <div id="faq7" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">Você pode preencher o formulário nesta página, chamar no WhatsApp (62) 99946-7614 ou enviar e-mail para inovesecontabilidade@gmail.com. Responderemos o mais breve possível.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTATO / CTA FINAL -->
+<section class="section" id="contato" style="background: var(--soft);">
+  <div class="container">
+    <div class="row g-5 align-items-center">
+      <div class="col-lg-6 reveal">
+        <div class="cta-final">
+          <h2>Vamos dar o próximo passo juntos?</h2>
+          <p>Preencha o formulário ao lado ou fale direto pelo WhatsApp. Nossa equipe responde suas dúvidas com clareza e sem compromisso.</p>
+          <a href="https://wa.me/5562999467614?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20a%20forma%C3%A7%C3%A3o%20de%20condutores." target="_blank" rel="noopener" class="btn btn-realiza btn-lg me-2 mb-2">
+            <i class="bi bi-whatsapp me-1"></i> Falar no WhatsApp
+          </a>
+          <a href="tel:+5562999467614" class="btn btn-outline-light btn-lg mb-2" style="border-color: rgba(255,255,255,.5); color:#fff;">
+            <i class="bi bi-telephone me-1"></i> Ligar agora
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-6 reveal">
+        <div class="form-card">
+          <h3 class="mb-2">Solicite informações</h3>
+          <p class="text-muted small mb-4">Preencha seus dados e nossa equipe entrará em contato para orientar você.</p>
+          <form id="contactForm" novalidate>
+            <div class="mb-3">
+              <label for="nome" class="form-label">Nome completo *</label>
+              <input type="text" class="form-control" id="nome" name="nome" required placeholder="Como podemos te chamar?">
+            </div>
+            <div class="row g-3 mb-3">
+              <div class="col-md-6">
+                <label for="telefone" class="form-label">WhatsApp *</label>
+                <input type="tel" class="form-control" id="telefone" name="telefone" required placeholder="(62) 99999-9999">
+              </div>
+              <div class="col-md-6">
+                <label for="email" class="form-label">E-mail</label>
+                <input type="email" class="form-control" id="email" name="email" placeholder="seu@email.com">
+              </div>
+            </div>
+            <div class="mb-3">
+              <label for="interesse" class="form-label">O que você procura? *</label>
+              <select class="form-select" id="interesse" name="interesse" required>
+                <option value="">Selecione uma opção</option>
+                <option>Primeira habilitação</option>
+                <option>Adição de categoria</option>
+                <option>Aulas teóricas</option>
+                <option>Aulas práticas</option>
+                <option>Outro</option>
+              </select>
+            </div>
+            <div class="mb-3">
+              <label for="mensagem" class="form-label">Mensagem (opcional)</label>
+              <textarea class="form-control" id="mensagem" name="mensagem" rows="3" placeholder="Conte-nos brevemente como podemos ajudar"></textarea>
+            </div>
+            <div class="form-check mb-3">
+              <input class="form-check-input" type="checkbox" id="consent" required>
+              <label class="form-check-label small text-muted" for="consent">
+                Autorizo o contato e o tratamento dos meus dados conforme a <a href="#privacidade" class="text-primary">Política de Privacidade</a>. *
+              </label>
+            </div>
+            <button type="submit" class="btn btn-realiza w-100 btn-lg">Enviar e receber atendimento</button>
+            <p class="text-muted small mt-3 mb-0"><i class="bi bi-shield-lock me-1"></i> Seus dados são tratados com confidencialidade.</p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- RODAPÉ -->
+<footer>
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-lg-4">
+        <div class="footer-brand">
+          <img src="https://images.unsplash.com/photo-1502877338535-766e1452684a?w=100&h=100&fit=crop&auto=format" alt="Logo Auto Escola Realiza">
+          <span>Auto Escola Realiza</span>
+        </div>
+        <p class="small">Formação de condutores com acolhimento, transparência e profissionalismo em Terezópolis de Goiás.</p>
+        <div class="d-flex gap-2 mt-3">
+          <a href="https://wa.me/5562999467614" target="_blank" rel="noopener" class="text-white fs-5" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+          <a href="mailto:inovesecontabilidade@gmail.com" class="text-white fs-5" aria-label="E-mail"><i class="bi bi-envelope"></i></a>
+          <a href="tel:+5562999467614" class="text-white fs-5" aria-label="Telefone"><i class="bi bi-telephone"></i></a>
+        </div>
+      </div>
+      <div class="col-6 col-lg-2">
+        <h5>Navegação</h5>
+        <ul>
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#faq">Dúvidas</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-lg-2">
+        <h5>Legal</h5>
+        <ul>
+          <li><a href="#privacidade" data-bs-toggle="modal" data-bs-target="#modalPrivacidade">Política de Privacidade</a></li>
+          <li><a href="#termos" data-bs-toggle="modal" data-bs-target="#modalTermos">Termos de Uso</a></li>
+          <li><a href="#cookies" data-bs-toggle="modal" data-bs-target="#modalCookies">Política de Cookies</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-4">
+        <h5>Contato</h5>
+        <ul class="small">
+          <li><i class="bi bi-geo-alt me-2"></i>Rua Professor Alarico, S/N — Quadra 37, Lote 9, Vila Braz, Terezópolis de Goiás – GO, CEP 75175-000</li>
+          <li><i class="bi bi-telephone me-2"></i><a href="tel:+5562999467614">(62) 99946-7614</a></li>
+          <li><i class="bi bi-envelope me-2"></i><a href="mailto:inovesecontabilidade@gmail.com">inovesecontabilidade@gmail.com</a></li>
+          <li><i class="bi bi-building me-2"></i>CNPJ: 44.685.880/0001-52</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-divider"></div>
+    <div class="row">
+      <div class="col-md-8 footer-legal">
+        <p class="mb-1"><strong style="color:#fff">Centro de Formação de Condutores Realiza LTDA</strong> — Nome fantasia: Auto Escola Realiza</p>
+        <p class="mb-0">CNPJ: 44.685.880/0001-52 · Empresa de Pequeno Porte · Situação: Ativa · Desde 27/12/2021<br>Rua Professor Alarico, S/N, Quadra 37, Lote 9, Vila Braz, Terezópolis de Goiás – GO, CEP 75175-000</p>
+      </div>
+      <div class="col-md-4 footer-legal text-md-end">
+        <p class="mb-0">&copy; <span id="year"></span> Auto Escola Realiza. Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- WhatsApp Flutuante -->
+<a href="https://wa.me/5562999467614?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20a%20forma%C3%A7%C3%A3o%20de%20condutores." 
+   target="_blank" rel="noopener" class="whatsapp-float" aria-label="Falar no WhatsApp">
+  <i class="bi bi-whatsapp"></i>
+</a>
+
+<!-- BANNER DE COOKIES -->
+<div class="cookie-banner" id="cookieBanner" role="dialog" aria-live="polite" aria-label="Aviso de cookies">
+  <div class="container">
+    <div class="row align-items-center g-3">
+      <div class="col-lg-7">
+        <h6 class="mb-1"><i class="bi bi-shield-check text-primary me-1"></i> Sua privacidade importa</h6>
+        <p class="small text-muted mb-0">Usamos cookies essenciais para o funcionamento do site. Com seu consentimento, podemos usar cookies de análise para entender como melhorar sua experiência. Você pode aceitar, recusar ou gerenciar suas preferências.</p>
+      </div>
+      <div class="col-lg-5 text-lg-end">
+        <button class="btn btn-outline-realiza btn-sm mb-1" data-bs-toggle="modal" data-bs-target="#modalCookies">Gerenciar preferências</button>
+        <button class="btn btn-outline-secondary btn-sm mb-1" id="btnRecusar">Recusar não essenciais</button>
+        <button class="btn btn-realiza btn-sm mb-1" id="btnAceitar">Aceitar todos</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- MODAL POLÍTICA DE PRIVACIDADE -->
+<div class="modal fade" id="modalPrivacidade" tabindex="-1" aria-labelledby="privacidadeLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title fs-5" id="privacidadeLabel">Política de Privacidade</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+      </div>
+      <div class="modal-body small">
+        <p><em>Última atualização: [DATA DE ATUALIZAÇÃO]</em></p>
+        <p>Esta Política de Privacidade descreve como o <strong>Centro de Formação de Condutores Realiza LTDA</strong> (CNPJ 44.685.880/0001-52), nome fantasia <strong>Auto Escola Realiza</strong>, trata os dados pessoais coletados por meio deste site, em conformidade com a Lei Geral de Proteção de Dados (Lei nº 13.709/2018 – LGPD).</p>
+        
+        <h6>1. Dados coletados</h6>
+        <p>Coletamos apenas os dados fornecidos voluntariamente por você no formulário de contato: nome, telefone/WhatsApp, e-mail, serviço de interesse e mensagem. Também podemos coletar dados de navegação anônimos (cookies de análise), mediante seu consentimento.</p>
+        
+        <h6>2. Finalidade</h6>
+        <p>Os dados são utilizados exclusivamente para: responder ao seu contato, fornecer informações sobre nossos serviços, agendar atendimentos e melhorar a experiência de navegação no site.</p>
+        
+        <h6>3. Utilização e compartilhamento</h6>
+        <p>Seus dados não são vendidos nem compartilhados com terceiros para fins de marketing sem seu consentimento. O compartilhamento ocorre apenas quando necessário para prestação do serviço solicitado ou por obrigação legal.</p>
+        
+        <h6>4. Armazenamento e segurança</h6>
+        <p>Os dados são armazenados em ambiente controlado, com medidas técnicas e administrativas razoáveis para protegê-los contra acesso não autorizado, perda ou alteração. O período de retenção segue a finalidade da coleta e obrigações legais aplicáveis.</p>
+        
+        <h6>5. Direitos do titular</h6>
+        <p>Você pode, a qualquer momento, solicitar: confirmação da existência de tratamento, acesso, correção, anonimização, portabilidade, eliminação de dados e revogação do consentimento. Para exercer seus direitos, entre em contato pelo e-mail <strong>[E-MAIL DE PRIVACIDADE]</strong>.</p>
+        
+        <h6>6. Exclusão ou solicitação de informações</h6>
+        <p>Para solicitar a exclusão dos seus dados ou obter mais informações, envie um e-mail para <strong>[E-MAIL DE PRIVACIDADE]</strong> ou entre em contato pelo telefone (62) 99946-7614. Responderemos no prazo legal.</p>
+        
+        <h6>7. Cookies</h6>
+        <p>Utilizamos cookies essenciais para o funcionamento do site e, com seu consentimento, cookies de análise. Você pode gerenciar suas preferências a qualquer momento pelo banner de cookies ou pela <a href="#cookies" data-bs-toggle="modal" data-bs-target="#modalCookies" data-bs-dismiss="modal">Política de Cookies</a>.</p>
+        
+        <h6>8. Contato do responsável</h6>
+        <p>Encarregado de Proteção de Dados (DPO): <strong>[NOME DO RESPONSÁVEL]</strong><br>
+        E-mail: <strong>[E-MAIL DE PRIVACIDADE]</strong><br>
+        Telefone: (62) 99946-7614<br>
+        Endereço: Rua Professor Alarico, S/N, Quadra 37, Lote 9, Vila Braz, Terezópolis de Goiás – GO, CEP 75175-000.</p>
+        
+        <p class="text-muted mt-4"><em>Os campos entre colchetes devem ser preenchidos com as informações reais da empresa antes da publicação.</em></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-realiza" data-bs-dismiss="modal">Entendi</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- MODAL TERMOS DE USO -->
+<div class="modal fade" id="modalTermos" tabindex="-1" aria-labelledby="termosLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title fs-5" id="termosLabel">Termos de Uso</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+      </div>
+      <div class="modal-body small">
+        <p><em>Última atualização: [DATA DE ATUALIZAÇÃO]</em></p>
+        <p>Bem-vindo ao site da <strong>Auto Escola Realiza</strong>. Ao navegar por este site, você concorda com os termos descritos abaixo.</p>
+        
+        <h6>1. Identificação</h6>
+        <p>Este site é operado por <strong>Centro de Formação de Condutores Realiza LTDA</strong>, CNPJ 44.685.880/0001-52, com sede na Rua Professor Alarico, S/N, Quadra 37, Lote 9, Vila Braz, Terezópolis de Goiás – GO, CEP 75175-000.</p>
+        
+        <h6>2. Objetivo do site</h6>
+        <p>O site tem caráter informativo e institucional, apresentando os serviços de formação de condutores oferecidos pela empresa e canais de contato.</p>
+        
+        <h6>3. Uso das informações</h6>
+        <p>As informações disponíveis são de caráter geral e podem ser atualizadas sem aviso prévio. Condições comerciais, valores e prazos devem ser confirmados diretamente com a equipe.</p>
+        
+        <h6>4. Propriedade intelectual</h6>
+        <p>Textos, imagens e elementos visuais deste site são de uso da empresa ou licenciados. É vedada a reprodução sem autorização prévia.</p>
+        
+        <h6>5. Responsabilidades</h6>
+        <p>A empresa não se responsabiliza por decisões tomadas exclusivamente com base nas informações genéricas do site. O contato direto é a via recomendada para obter informações precisas.</p>
+        
+        <h6>6. Links externos</h6>
+        <p>O site pode conter links para plataformas externas (como WhatsApp). A empresa não se responsabiliza pelas políticas dessas plataformas.</p>
+        
+        <h6>7. Foro</h6>
+        <p>Eventuais controvérsias serão resolvidas conforme a legislação brasileira, no foro da comarca de Terezópolis de Goiás – GO.</p>
+        
+        <p class="text-muted mt-4"><em>Os campos entre colchetes devem ser preenchidos antes da publicação.</em></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-realiza" data-bs-dismiss="modal">Entendi</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- MODAL POLÍTICA DE COOKIES -->
+<div class="modal fade" id="modalCookies" tabindex="-1" aria-labelledby="cookiesLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title fs-5" id="cookiesLabel">Política de Cookies</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+      </div>
+      <div class="modal-body small">
+        <p><em>Última atualização: [DATA DE ATUALIZAÇÃO]</em></p>
+        <p>Esta Política de Cookies explica como a <strong>Auto Escola Realiza</strong> utiliza cookies e tecnologias similares neste site.</p>
+        
+        <h6>1. O que são cookies?</h6>
+        <p>Cookies são pequenos arquivos armazenados no seu dispositivo que ajudam o site a funcionar corretamente e a entender como os visitantes interagem com o conteúdo.</p>
+        
+        <h6>2. Categorias de cookies</h6>
+        <ul>
+          <li><strong>Necessários:</strong> indispensáveis para o funcionamento do site. Não podem ser desativados.</li>
+          <li><strong>Análise:</strong> ajudam a entender como o site é utilizado (Google Analytics 4, se ativado). Só são ativados com seu consentimento.</li>
+          <li><strong>Marketing/Publicidade:</strong> utilizados para medir a eficácia de anúncios (Google Ads, se ativado). Só são ativados com seu consentimento.</li>
+        </ul>
+        
+        <h6>3. Gerenciamento de preferências</h6>
+        <p>Você pode aceitar, recusar ou gerenciar cookies não essenciais a qualquer momento. A recusa de cookies não essenciais não impede o uso básico do site.</p>
+        
+        <h6>4. Consent Mode</h6>
+        <p>Este site utiliza estrutura de Consent Mode (Google) para respeitar suas escolhas. Nenhum cookie de análise ou marketing é ativado antes do seu consentimento.</p>
+        
+        <h6>5. Como revogar o consentimento</h6>
+        <p>Você pode limpar os cookies do seu navegador ou entrar em contato pelo e-mail <strong>[E-MAIL DE PRIVACIDADE]</strong> para solicitar informações sobre o tratamento.</p>
+        
+        <p class="text-muted mt-4"><em>Os campos entre colchetes devem ser preenchidos antes da publicação.</em></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-realiza" data-bs-dismiss="modal">Entendi</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+  // Ano dinâmico no rodapé
+  document.getElementById('year').textContent = new Date().getFullYear();
+
+  // Animações de entrada (IntersectionObserver)
+  const reveals = document.querySelectorAll('.reveal');
+  if ('IntersectionObserver' in window) {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); observer.unobserve(e.target); } });
+    }, { threshold: 0.12 });
+    reveals.forEach(el => observer.observe(el));
+  } else {
+    reveals.forEach(el => el.classList.add('visible'));
+  }
+
+  // ====== COOKIES ======
+  const banner = document.getElementById('cookieBanner');
+  const CONSENT_KEY = 'realiza_consent_v1';
+
+  function loadConsent() {
+    try { return JSON.parse(localStorage.getItem(CONSENT_KEY)); } catch { return null; }
+  }
+  function saveConsent(obj) {
+    localStorage.setItem(CONSENT_KEY, JSON.stringify(obj));
+    // Aplicar Consent Mode
+    if (typeof gtag === 'function') {
+      gtag('consent', 'update', {
+        'ad_storage': obj.marketing ? 'granted' : 'denied',
+        'ad_user_data': obj.marketing ? 'granted' : 'denied',
+        'ad_personalization': obj.marketing ? 'granted' : 'denied',
+        'analytics_storage': obj.analytics ? 'granted' : 'denied'
+      });
+    }
+  }
+  function showBanner() { banner.classList.add('show'); }
+  function hideBanner() { banner.classList.remove('show'); }
+
+  const saved = loadConsent();
+  if (!saved) {
+    setTimeout(showBanner, 1200);
+  } else {
+    // Reaplica consentimento salvo
+    if (typeof gtag === 'function') {
+      gtag('consent', 'update', {
+        'ad_storage': saved.marketing ? 'granted' : 'denied',
+        'ad_user_data': saved.marketing ? 'granted' : 'denied',
+        'ad_personalization': saved.marketing ? 'granted' : 'denied',
+        'analytics_storage': saved.analytics ? 'granted' : 'denied'
+      });
+    }
+  }
+
+  document.getElementById('btnAceitar').addEventListener('click', () => {
+    saveConsent({ necessary: true, analytics: true, marketing: true, date: new Date().toISOString() });
+    hideBanner();
+  });
+  document.getElementById('btnRecusar').addEventListener('click', () => {
+    saveConsent({ necessary: true, analytics: false, marketing: false, date: new Date().toISOString() });
+    hideBanner();
+  });
+
+  // ====== FORMULÁRIO ======
+  // Validação e envio via WhatsApp (sem backend)
+  document.getElementById('contactForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+    const form = this;
+    if (!form.checkValidity()) {
+      form.classList.add('was-validated');
+      return;
+    }
+    const nome = document.getElementById('nome').value.trim();
+    const tel = document.getElementById('telefone').value.trim();
+    const email = document.getElementById('email').value.trim();
+    const interesse = document.getElementById('interesse').value;
+    const msg = document.getElementById('mensagem').value.trim();
+
+    const texto = `Olá! Vim pelo site e gostaria de atendimento.%0A%0A*Nome:* ${encodeURIComponent(nome)}%0A*WhatsApp:* ${encodeURIComponent(tel)}%0A*E-mail:* ${encodeURIComponent(email || 'não informado')}%0A*Interesse:* ${encodeURIComponent(interesse)}%0A*Mensagem:* ${encodeURIComponent(msg || '—')}`;
+    const url = `https://wa.me/5562999467614?text=${texto}`;
+
+    // Evento de conversão (dispara apenas se consentimento de marketing dado)
+    if (typeof gtag === 'function') {
+      gtag('event', 'generate_lead', { 'event_category': 'formulario', 'event_label': interesse });
+    }
+
+    window.open(url, '_blank');
+    form.reset();
+    form.classList.remove('was-validated');
+
+    // Feedback visual discreto
+    const btn = form.querySelector('button[type=submit]');
+    const original = btn.innerHTML;
+    btn.innerHTML = '<i class="bi bi-check-circle me-1"></i> Redirecionando para o WhatsApp...';
+    btn.disabled = true;
+    setTimeout(() => { btn.innerHTML = original; btn.disabled = false; }, 3000);
+  });
+
+  // Máscara simples de telefone
+  document.getElementById('telefone').addEventListener('input', function(e) {
+    let v = e.target.value.replace(/\D/g, '').slice(0, 11);
+    if (v.length > 10) v = v.replace(/(\d{2})(\d{5})(\d{4})/, '($1) $2-$3');
+    else if (v.length > 6) v = v.replace(/(\d{2})(\d{4})(\d{0,4})/, '($1) $2-$3');
+    else if (v.length > 2) v = v.replace(/(\d{2})(\d{0,5})/, '($1) $2');
+    e.target.value = v;
+  });
+</script>
+
+</body>
+</html>
